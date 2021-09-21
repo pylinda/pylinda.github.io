@@ -1,13 +1,12 @@
 ---
-title: 1 &mdash; GIT и введение в Python
+title: 1 &mdash; Введение в Python
 ---
 
-# Git и введение в Python
+# Введение в Python
 ---
 
 ## Содержание
 
-1. [Как начать пользоваться гитом и гитхабом](#git)
 2. [Установка Python](#установка-python)
 3. [Основы языка Python](#основы-языка-python)
     1. [Арифметика](#арифметика)
@@ -18,31 +17,10 @@ title: 1 &mdash; GIT и введение в Python
 <!-- ====================================================================== -->
 
 
-## Git
-
-Два конспекта о том, как начать пользоваться гитом и гитхабом:
-
-* [ancatmara.gitbooks.io](https://ancatmara.gitbooks.io/digital-literacy/chapter1.html)
-* [github.com/ElizavetaKuzmenko](https://github.com/ElizavetaKuzmenko/Programming-and-computer-instruments/wiki/%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80-1:-GIT)
-
-
-<!-- ====================================================================== -->
-
-
 ## Установка Python
 
-Обращайте внимание на версию питона! Мы пишем на Python 3, предпочтительно версии 3.5 и новее.
-
-### Windows
-
-<https://www.python.org/downloads/> — простой путь
-
-### macOS
-
-<https://www.python.org/downloads/> — простой путь
-
-<https://brew.sh/> — установка через менеджер пакетов Homebrew, требует использования командной строки.
-После установки самого Homebrew выполните `brew install python`
+### Windows и MAC
+[Инструкции](https://github.com/oserikov/py-21/blob/master/hw0.md)
 
 ### Linux
 
@@ -65,9 +43,8 @@ title: 1 &mdash; GIT и введение в Python
 
 ### Арифметика
 
-Все действия этого раздела выполняйте прямо в интерпретаторе Python, используя idle или набрав `python3` в терминале (выйти можно командой `exit()`).
+Все действия этого раздела выполняйте прямо в интерпретаторе Python, запустив `python3` в терминале (про запуск терминала см. [тут](https://github.com/oserikov/py-21/blob/master/hw0.md) ) (выйти можно командой `exit()`).
 
-![IDLE console screenshot](/img/01/idle_console.png)
 
 Базовые математические операции в Python делаются очень просто. Сложение и вычитание:
 
@@ -141,10 +118,6 @@ title: 1 &mdash; GIT и введение в Python
 5 + 4  # ничего не напечатает
 print(3 + 2)  # напечатает «5»
 ```
-
-![IDLE editor screenshot](/img/01/idle_editor.png)
-
-В IDLE создайте новый файл File -> New File. Этот файл можно запустить с помощью пункта меню Run -> Run Module или нажатием клавиши F5. Попутно вам предложат куда-нибудь сохранить ваш новый скрипт.
 
 `print()` — это одна из встроенных функций языка Python. Конечно, с её помощью можно печатать не только числа.
 
